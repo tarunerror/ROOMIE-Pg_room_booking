@@ -1,0 +1,48 @@
+.pg-listing {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pg-listing h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.pg-listing form {
+    display: flex;
+    flex-direction: column;
+}
+
+.pg-listing input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.pg-listing button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pg-listing button:hover {
+    background-color: #3a7bc8;
+}
+
+.error {
+    color: #dc3545;
+    text-align: center;
+    margin-bottom: 1rem;
+}

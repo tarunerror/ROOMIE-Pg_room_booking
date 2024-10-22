@@ -1,0 +1,28 @@
+.search-bar {
+    margin: 2rem 0;
+    animation: fadeIn 1s ease-out;
+  }
+  
+  .search-bar input {
+    width: 60%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-bar button:hover {
+    background-color: #3a7bd5;
+  }
+  

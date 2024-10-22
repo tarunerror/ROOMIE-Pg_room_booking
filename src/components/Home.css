@@ -1,0 +1,10 @@
+.home {
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  .home h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    animation: fadeInUp 1s ease-out;
+  }

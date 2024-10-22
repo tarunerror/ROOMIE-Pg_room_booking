@@ -1,0 +1,70 @@
+.home {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.navigation-menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.navigation-menu button {
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navigation-menu button:hover {
+    background-color: #e9ecef;
+}
+
+.pg-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.pg-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.pg-item:hover {
+    transform: translateY(-5px);
+}
+
+.pg-item h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.pg-item p {
+    color: #666;
+}
+
+.view-more {
+    display: block;
+    margin: 2rem auto 0;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.view-more:hover {
+    background-color: #3a7bc8;
+}
